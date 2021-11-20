@@ -27,7 +27,7 @@ public class InfoVols {
 		scan.close();
 	}
 	
-	// If there is a stop over and the transit time greater than one hour
+	// display of all flights connecting two cities, having one stopover and a transit time greater than one hour
 	public static void volsDeuxVilles() {
 		Scanner scan=new Scanner(System.in);
 		
